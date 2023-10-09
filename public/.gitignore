@@ -1,0 +1,18 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+
+# Built output
+/build
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Optional: Editor directories
+.idea/
+.vscode/

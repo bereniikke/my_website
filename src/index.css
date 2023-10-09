@@ -1,0 +1,167 @@
+
+@font-face {
+    font-family: 'Newsreader-regular';
+    src: url(./fonts/Newsreader/static/Newsreader_14pt-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Sacramento-regular';
+    src: url(./fonts/Sacramento/Sacramento-Regular.ttf)
+}
+
+body {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 0 30px;
+    font-family: 'Newsreader-regular', sans-serif;
+    font-size: 16px;
+    line-height: 2.5em;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .logo {
+    font-family: 'Sacramento-regular', serif;
+    font-size: 1em;
+  }
+
+  ul.navigation li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.navigation {
+    
+    padding: 0;
+  }
+  ul.navigation li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+
+  .header-divider {
+    border-bottom: 1px solid #3e3e3e; 
+    margin-bottom: 40px;
+  }
+
+/** HOME JS **/
+
+  .home-h1 {
+    font-size: 100px;
+  }
+
+  .home-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 30px;
+  }
+
+  .home-text-container {
+    max-width: 50%;
+  }
+
+  .lauralogo {
+    width: 400px;
+    margin: 40px;
+  }
+
+/** CONTENT **/
+
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+
+  .active {
+    
+  }
+
+
+  /** ABOUT**/
+
+  .about-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px 30px;
+  }
+
+  .about-text-container {
+    max-width: 50%;
+    text-align: justify;
+
+
+  }
+
+  .about-h1 {
+    font-family: 'Newsreader-regular';
+    font-size: 90px;
+    margin-bottom: 100px;
+    color: rgb(255, 135, 121);
+  }
+
+  .about-h2 {
+    font-family: 'Sacramento-regular';
+    font-size: 2.2em;
+ 
+
+   
+ }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+
+  /** CONTACT **/
+
+  .contact-container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 20px 30px;
+  }
+
+  .contact-h1 {
+    font-family: 'Newsreader-regular';
+    font-size: 90px;
+    color: rgb(255, 135, 121);
+
+  }
+  
+  .linkedin {
+    text-decoration: none;
+    color: rgb(255, 135, 121);
+  }
+  /** FOOTER **/
+
+  .footer {
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+  }
